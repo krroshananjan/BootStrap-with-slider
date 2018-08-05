@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Website Tutorial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="img/w3newbie.png"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Testimonials</a></li>
+					<li><a href="#">contact</a></li>
+					
+				</ul>
+				
+			</div>
+			
+		</div>
+		
+	</nav>
+
+	<div id="myCarousel" class="carousel slide" data-role="carousel">
+		<ul class="carousel-indicators">
+			<li data-target=#myCarousel data-slide-to="0" class="active"></li>
+			<li data-target=#myCarousel data-slide-to="1"></li>
+			<li data-target=#myCarousel data-slide-to="2"></li>	
+		</ul>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="img/mountains.png">
+				<div class="carousel-caption">
+					<h1>get to knoe bootstrap</h1>
+					<br>
+					<button type="button" class="btn btn-default">Get started</button>
+				</div>
+			</div><!--end active-->
+			<div class="item">
+				<img src="img/red.png">
+			</div>
+			<div class="item">
+				<img src="img/snow.png">
+			</div>
+			
+		</div>
+		<!--start slider control-->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
+			</span>
+			<span class="sr-only">previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
+			</span>
+			<span class="sr-only">next</span>
+		</a>
+
+	</div><!--end slider-->
+
+	<div class="container text-center">
+		<h2>What we're using</h2>
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="img/html5.png" id="icon">
+				<h4>HTML5</h4>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/bootstrap.png" id="icon">
+				<h4>BootStrap</h4>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/css3.png" id="icon">
+				<h4>CSS3</h4>
+			</div>
+			
+		</div>
+	</div>
+	<div class="padding">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+			<h4>here is the cool thing about bootstrap.. </h4>
+			<p>Build responsive, mobile-first projects on the web with the world's most popular front-end component library Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+
+			<p>Include Bootstrap's source Sass and JavaScript files via npm, Composer or Meteor. Package managed installs don't include documentation, but do include our build system and readme.</p>	
+			</div>
+			<div class="col-md-6">
+			<img src="img/bootstrap2.jpg" class="img-resposive">	
+		</div>
+	</div>
+	</div>
+</div>
+<div class="padding">
+ <div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-sm-6 col-xs-12">
+			<h4>Built with SaaS</h4>
+			<p>Include Bootstrap's source Sass and JavaScript files via npm, Composer or Meteor. Package managed installs don't include documentation, but do include our build system and readme.</p>	
+			</div>
+			<div class="col-lg-3 col-sm-6 col-xs-12">
+			<img src="img/sass.png" class="img-resposive">	
+		</div>
+		<div class="col-lg-3 col-sm-6 col-xs-12">
+			<h4>And less</h4>
+			<p>Include Bootstrap's source Sass and JavaScript files via npm, Composer or Meteor. Package managed installs don't include documentation, but do include our build system and readme.</p>	
+			</div>
+			<div class="col-lg-3 col-sm-6 col-xs-12">
+			<img src="img/less.png" class="img-resposive">	
+		</div>
+	</div>
+</div>
+
+</div>
+<div class="container">
+		<div class="row">
+			<h4><a href="#hidden" data-toggle="collapse">Care to learn more....</a></h4>
+			<div id="hidden" class="collapse">
+			<h4>here is the cool thing about bootstrap.. </h4>
+			<p>Build responsive, mobile-first projects on the web with the world's most popular front-end component library Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+
+			<p>Include Bootstrap's source Sass and JavaScript files via npm, Composer or Meteor. Package managed installs don't include documentation, but do include our build system and readme.</p>	
+			</div>
+		</div>
+
+</div>
+<footer class="container-fluid text-center">
+	<div class="row">
+		<div class="col-sm-4">
+			<h3>Contact us</h3>
+			<br>
+			<h4>ou address and contact info here</h4>
+		</div>
+		<div class="col-sm-4">
+			<h3>Connect</h3>
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-google"></a>
+			<a href="#" class="fa fa-linkedin"></a>
+			<a href="#" class="fa fa-youtube"></a>
+			
+		</div>
+		<div class="col-sm-4">
+			<h3>Contact us</h3>
+			<img src="img/bunny.png" class="icon">
+		</div>
+		
+	</div>
+	
+</footer>
+</body>
+</html>
+
+</body>
+</html>
